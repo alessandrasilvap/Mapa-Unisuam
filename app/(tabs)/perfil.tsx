@@ -223,24 +223,43 @@ export default function TelaPerfil() {
   //Função de Logout (com Firebase)
   const handleLogout = async () => {
     triggerHaptic('heavy');
+  
+    //WEB
+    if (Platform.OS === 'web') {
+      const confirmLogout = window.confirm("Tem certeza que deseja sair da conta?");
+  
+      if (confirmLogout) {
+        try {
+          await signOut(auth);
+          router.replace('/login');
+        } catch (error) {
+          console.log("Erro ao fazer logout:", error);
+          alert("Não foi possível sair. Tente novamente.");
+        }
+      }
+  
+      return;
+    }
+  
+    //MOBILE
     Alert.alert(
       "Sair da Conta",
       "Tem certeza que deseja sair?",
       [
         { text: "Cancelar", style: "cancel" },
-        { 
-          text: "Sair", 
-          style: "destructive", 
+        {
+          text: "Sair",
+          style: "destructive",
           onPress: async () => {
             try {
               await signOut(auth);
               router.replace('/login');
             } catch (error) {
               console.log("Erro ao fazer logout:", error);
-              Alert.alert("Erro", "Não foi possível sair. Tente novamente.");
+              Alert.alert("Erro", "Não foi possível sair.");
             }
           }
-        },
+        }
       ]
     );
   };
