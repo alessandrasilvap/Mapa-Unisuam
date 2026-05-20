@@ -1,0 +1,142 @@
+[33m4d857ea[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m atualização geral
+app/(tabs)/_layout.tsx
+app/(tabs)/index.tsx
+app/(tabs)/perfil.tsx
+app/_layout.tsx
+app/cadastro-test.tsx
+app/cadastro.tsx
+app/detalhes.tsx
+app/favoritas.tsx
+app/historico.tsx
+app/login.tsx
+app/mapa.tsx
+assets/images/mapeamento das salas - projeto mobile/auditorio.jpg
+assets/images/mapeamento das salas - projeto mobile/banheiro.jpg
+assets/images/mapeamento das salas - projeto mobile/sala101c.jpg
+assets/images/mapeamento das salas - projeto mobile/sala101d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala101e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala102c.jpg
+assets/images/mapeamento das salas - projeto mobile/sala102d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala102e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala103c.jpg
+assets/images/mapeamento das salas - projeto mobile/sala103d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala103e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala104c.jpg
+assets/images/mapeamento das salas - projeto mobile/sala104d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala104e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala105c.jpg
+assets/images/mapeamento das salas - projeto mobile/sala105d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala105e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala106d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala106e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala107d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala107e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala108d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala108e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala109d.jpg
+assets/images/mapeamento das salas - projeto mobile/sala109e.jpg
+assets/images/mapeamento das salas - projeto mobile/sala110e.jpg
+components/HeaderPerfil.tsx
+components/SearchBar.tsx
+constants/theme.ts
+[33mef86407[m cadastro
+app/(tabs)/perfil.tsx
+app/cadastro.tsx
+app/login.tsx
+app/mapa.tsx
+package-lock.json
+package.json
+[33m1fc04c5[m controle de zoom
+app/mapa.tsx
+[33mcf93cd1[m atualização do mapa
+.vscode/launch.json
+COMO-ADICIONAR-IMAGEM.md
+CONFIGURACAO-SALAS.md
+COORDENADAS-ENQUADRADAS.md
+ENQUADRAMENTO-MELHORADO.md
+EXEMPLO-COORDENADAS.md
+GESTOS-ZOOM.md
+ICONE-LOCALIZACAO.md
+INSTRUCOES-IMAGEM.md
+MAPA-RESPONSIVO.md
+POSICIONAMENTO-FIXO.md
+README-MAPA.md
+SALAS-UNISUAM.md
+SELECAO-PERMANENTE.md
+SEM-ZOOM-AUTOMATICO.md
+TAMANHO-FIXO.md
+ZOOM-GESTOS-SIMPLES.md
+app/(tabs)/index.tsx
+app/(tabs)/perfil.tsx
+app/cadastro.tsx
+app/chat.tsx
+app/detalhes.tsx
+app/login.tsx
+app/mapa.tsx
+components/BottomNav.tsx
+components/HeaderPerfil.tsx
+components/SearchBar.tsx
+components/buttons.tsx
+constants/theme.ts
+[33m00d8825[m atualização de zoom do mapa
+app/mapa.tsx
+assets/images/mapa1.png
+components/SearchBar.tsx
+[33m8df848e[m adição do mapa
+app/(tabs)/index.tsx
+app/mapa.tsx
+components/BottomNav.tsx
+components/MapMarker.tsx
+[33ma74cc40[m mapa
+COMO-ADICIONAR-IMAGEM.md
+CONFIGURACAO-SALAS.md
+COORDENADAS-ENQUADRADAS.md
+ENQUADRAMENTO-MELHORADO.md
+EXEMPLO-COORDENADAS.md
+GESTOS-ZOOM.md
+ICONE-LOCALIZACAO.md
+INSTRUCOES-IMAGEM.md
+MAPA-RESPONSIVO.md
+POSICIONAMENTO-FIXO.md
+README-MAPA.md
+SALAS-UNISUAM.md
+SELECAO-PERMANENTE.md
+SEM-ZOOM-AUTOMATICO.md
+TAMANHO-FIXO.md
+ZOOM-GESTOS-SIMPLES.md
+app.json
+app/(tabs)/_layout.tsx
+app/(tabs)/index.tsx
+app/mapa.tsx
+assets/images/mapa.jpg
+components/MapMarker.tsx
+components/SearchBar.tsx
+components/WebMapView.tsx
+components/WebMarker.tsx
+metro.config.js
+package-lock.json
+package.json
+[33m9b3d0d7[m Pequenos ajustes
+app/(tabs)/index.tsx
+app/(tabs)/perfil.tsx
+app/chat.tsx
+components/BottomNav.tsx
+components/HeaderPerfil.tsx
+hooks/useAvatar.ts
+[33m8628410[m to bolado já
+app/(tabs)/_layout.tsx
+app/(tabs)/index.tsx
+app/(tabs)/perfil.tsx
+app/perfil.tsx
+components/BottomNav.tsx
+components/HeaderPerfil.tsx
+components/ThemeContext.tsx
+package-lock.json
+package.json
+[33mfcd5fbf[m HeaderPerfil
+app/(tabs)/_layout.tsx
+app/(tabs)/index.tsx
+app/chat.tsx
+app/detalhes.tsx
+app/perfil.tsx
+components/HeaderPerfil.tsx
