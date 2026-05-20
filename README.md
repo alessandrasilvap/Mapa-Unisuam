@@ -1,3 +1,5 @@
+<img width="1351" height="633" alt="Captura de tela 2026-05-20 010133" src="https://github.com/user-attachments/assets/a59c9add-4dfa-4bfb-8ce9-2e7fd4cfcd0b" />
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
