@@ -1,4 +1,4 @@
-<img width="1351" height="633" alt="Captura de tela 2026-05-20 010133" src="https://github.com/user-attachments/assets/a59c9add-4dfa-4bfb-8ce9-2e7fd4cfcd0b" />
+<img width="1359" height="599" alt="Captura de tela 2026-05-23 154412" src="https://github.com/user-attachments/assets/93e68805-da15-4e1f-bb84-ffb3d25ca834" />
 
 # Welcome to your Expo app 👋
 
