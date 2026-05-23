@@ -1,14 +1,14 @@
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
+import { doc, getDoc } from 'firebase/firestore'; //<-- Apenas doc e getDoc
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, Platform, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, Vibration, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import BottomNav from '../../components/BottomNav';
 import { useAppTheme } from '../../components/ThemeContext';
 import { auth, db } from '../../firebaseConfig'; //<-- Apenas auth e db
-import { signOut, onAuthStateChanged } from 'firebase/auth'; 
-import { doc, getDoc } from 'firebase/firestore'; //<-- Apenas doc e getDoc
 
 
 const { width } = Dimensions.get('window');
@@ -223,25 +223,23 @@ export default function TelaPerfil() {
   //Função de Logout (com Firebase)
   const handleLogout = async () => {
     triggerHaptic('heavy');
-  
-    //WEB
+
     if (Platform.OS === 'web') {
-      const confirmLogout = window.confirm("Tem certeza que deseja sair da conta?");
-  
-      if (confirmLogout) {
-        try {
-          await signOut(auth);
-          router.replace('/login');
-        } catch (error) {
-          console.log("Erro ao fazer logout:", error);
-          alert("Não foi possível sair. Tente novamente.");
-        }
+      const confirmar = window.confirm('Tem certeza que deseja sair?');
+
+      if (!confirmar) return;
+
+      try {
+        await signOut(auth);
+        router.replace('/login');
+      } catch (error) {
+        console.log("Erro ao fazer logout:", error);
+        alert("Não foi possível sair.");
       }
-  
+
       return;
     }
-  
-    //MOBILE
+
     Alert.alert(
       "Sair da Conta",
       "Tem certeza que deseja sair?",
@@ -259,7 +257,7 @@ export default function TelaPerfil() {
               Alert.alert("Erro", "Não foi possível sair.");
             }
           }
-        }
+        },
       ]
     );
   };
